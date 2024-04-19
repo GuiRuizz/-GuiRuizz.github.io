@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliador</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="myscript.js"></script> 
+  
+</head>
+<body >
+
+<div id="container">
+  <form>
+    <fieldset>    
+      <legend>Avaliador</legend>
+      <div id="avalidor">
+          <div>
+            <label for="tipoproduto">Tipo do Produto</label>
+            <select  id="tipoproduto">
+              <option value="0">-- Escolha um produto --</option>
+              <option value="Mijao">Mijão</option>
+              <option value="Body">Body</option>
+              <option value="Body M. Longa">Body M. Longa</option>
+              <option value="Macacao">Macacão</option>
+              <option value="Body Vestido/Camisa">Body Vestido/Camisa</option>
+              <option value="Legging">Legging</option>
+              <option value="Bermuda/Shorts">Bermuda/Shorts</option>
+              <option value="Calça Moleton">Calça Moleton</option>
+              <option value="Camiseta">Camiseta</option>
+              <option value="Vestido">Vestido</option>
+              <option value="Camisa">Camisa</option>
+              <option value="Pijama">Pijama</option>
+              <option value="Jardineira">Jardineira</option>
+              <option value="Calça Jeans">Calça Jeans</option>
+              <option value="Blusa">Blusa</option>
+              <option value="Conjunto M. Curta">Conjunto M. Curta</option>
+              <option value="Conjunto M. Longa">Conjunto M. Longa</option>
+              <option value="Jaqueta">Jaqueta</option>
+              <option value="Saída Maternidade">Saída Maternidade</option>
+              <option value="Sandalia">Sandalia</option>
+              <option value="Tenis">Tenis</option>
+              <option value="Sapatinho Bebe">Sapatinho Bebe</option>
+              <option value="Sapatilha">Sapatilha</option>
+              <option value="Bota">Bota</option>
+              <option value="Chinelo">Chinelo</option>
+              <option value="Bauche">Bauche</option>
+
+            </select>
+
+            
+            
+          </div>
+            
+          <div>
+            <label for="qualidadeproduto">Qualidade do Produto</label>
+            <select  id="qualidadeproduto">
+              <option value="">-- Escolha um produto --</option>
+              <option value="Regular">Regular</option>
+              <option value="Bom">Bom</option>
+              <option value="Muito Bom">Muito Bom</option>  
+              <option value="Nunca Usado">Nunca Usado</option> 
+            </select>  
+          </div>
+
+          <div>
+            <label for="marcaproduto">Tipo da Marca</label>
+            <select  id="marcaproduto">
+              <option value="">-- Escolha um produto --</option>
+              <option value="Nacional/Genérica">Nacional/Genérica</option>
+              <option value="Nacional Plus">Nacional Plus</option>  
+              <option value="Importada">Importada</option>
+              <option value="Importada Plus">Importada Plus</option>
+            </select>
+
+          </div>
+
+          <div>
+            <label for="quantidadeproduto">Quantidade:</label>
+            <input type="number" id="quantidadeproduto">
+          </div>
+
+          
+            <input class="ajusBtn1" type="button" value="Avaliar" onclick="teste2 ()">
+            <input class="ajusBtn1" type="button" value="Histórico" onclick="window.open('verEstoque.html','_self')">
+            <input class="ajusBtn1" type="button" value="Resetar" onclick="test3 ()">
+            
+          
+    </div>
+        
+      </fieldset>
+
+      <footer>
+        <p>&copy; 2023 - Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: contato@exemplo.com</p>
+        
+      </footer>
+     
+      
+    </form>
+  
+</div>
+    
+  
+</body>
+</html>
